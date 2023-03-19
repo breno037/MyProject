@@ -1,0 +1,13 @@
+<h1>Centro Educacional Novo Eldorado<h1>
+
+<% @alunos.each do |aluno| %>
+
+    <div>
+        <p>registro: <%= aluno.id %></p>
+        <p>nome: <%= aluno.nome %></p>
+        <p>idade: <%= aluno.idade %></p>
+        <p>data de nascimento: <%= aluno.data_de_nascimento %></p>
+        <p>contato: <%= aluno.contato %></p>
+    </div>
+
+    <% end %>
